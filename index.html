@@ -109,6 +109,7 @@
                   <h5>Masters in Computer Science</h5>
                   <small class="fg-theme">University of California San Diego</small>
                   <p> Expected graduation date: December 2023</p>
+                  <p> GPA : 4.0 out of 4.0</p>
                 </div>
               </li>
               <li>
@@ -129,7 +130,7 @@
                 <div class="details">
                   <h5>Graduate Student Researcher</h5>
                   <small class="fg-theme">University of California San Diego</small>
-                  <p>Under Prof. Yoav Freund, using conformal predictions to understand the stability of neural networks.</p>
+                  <p>Under Prof. Yoav Freund, working on active learning by sampling based method.</p>
                 </div>
               </li>
               <li>
@@ -162,7 +163,7 @@
           <div class="col-md-6 col-lg-4 wow fadeInUp">
             <div class="card card-body">
               <h4 class="fg-theme">Machine learning</h4>
-              <p>I have worked on several Machine learning projects. Past research includes <a href="https://ieeexplore.ieee.org/document/9645825" target="_blank" rel="noopener noreferrer">Automatic Waste Segregation using CNN</a>. 
+              <p>I have worked on several Machine and Deep learning projects. Past research includes NeRF models, active learning and CNN</a>. 
               I have experience with Pytorch, sklearn, numpy and pandas. </p>
             </div>
           </div>
@@ -219,30 +220,51 @@
         <h1 class="text-center fw-normal wow fadeInUp">Projects</h1>
 
         <div class="gridder my-3">
+          
+
           <div class="grid-item">
-            <div class="img-place" data-src="./assets/img/work/system_design.png" data-fancybox data-caption="<h5 class='fg-theme'>Automatic Waste Segregation using CNN</h5>
-              <p>End to End waste segregation system designed using Arduino. Trained the CNN using PyTorch and built an
-                end to end pipeline for deployment for the same. Published the work in an IEEE conference.</p>
-              <p> <a href=https://ieeexplore.ieee.org/document/9645825>Research Paper</a></p>">
-              <img src="./assets/img/work/system_design.png" alt="System design">
+            <div class="img-place" data-src="./assets/img/nerf.mp4" data-fancybox data-caption="<h5 class='fg-theme'>Two Phase NeRF</h5> 
+              <p>Achieved reduction in NeRF model's training time by 25% by applying ideas from transfer learning.</p>
+              <p> <a href=https://github.com/sayhitosandy/Two_Phase_NeRF>Code</a></p>">
+              <img src="./assets/img/nerf.png" alt="NeRF">
               <div class="img-caption">
-                <h5 class="fg-theme">Automatic Waste Segregation using CNN</h5>
-                <p>End to end embeeded system designed using Arduino, Flask and Pytorch</p>
+                <h5 class="fg-theme">Two Phase NeRF</h5>
+                <p>A Two-Phase Training Approach To Boost NeRF Reconstruction Speed</p>
               </div>
             </div>
           </div>
+
+          
+
+
+
           <div class="grid-item">
-            <div class="img-place" data-src="./assets/img/work/surfstore.png" data-fancybox data-caption="<h5 class='fg-theme'>SurfStore : A cloud based online storage service</h5> 
+            <div class="img-place" data-src="./assets/img/work/surfstore.png" data-fancybox data-caption="<h5 class='fg-theme'>CloudStore : A cloud based online storage service</h5> 
               <p>A fault resistant online cloud storage solution designed in GoLang made using gRPC that allows the shared
                 storage between several clients while maintaining concurrency and security. Fault tolerance was achieved by use of RAFT protocol.</p>
-              <p> <a href=https://github.com/ucsd-cse224-wi23/proj5-AwsManas>Code - (Private/ongoing)</a> Available on request</p>">
+              <p> <a href=https://github.com/ucsd-cse224-wi23/proj5-AwsManas>Code</a></p>">
               <img src="./assets/img/work/surfstore.png" alt="">
               <div class="img-caption">
-                <h5 class="fg-theme">SurfStore : A cloud based online storage service</h5>
+                <h5 class="fg-theme">CloudStore : A cloud based online storage service</h5>
                 <p>A command line utility that provides encrypted, fault resistant, concurrent and scalable online cloud storage solution</p>
               </div>
             </div>
           </div>
+
+          <div class="grid-item">
+            <div class="img-place" data-src="./assets/img/men_women.png" data-fancybox data-caption="<h5 class='fg-theme'>Gender Based Salary Disparity</h5> 
+              <p>Pandas, matplotlib, numpy, sklearn were used.</p>
+              <p>The purpose of this data science project is to analyze the wage disparities between men and women in the city of San Diego, with the aim of identifying any potential parity gap. The project includes a comprehensive analysis of the data. The findings of the project will provide valuable insights into the issue of wage parity between genders in San Diego.</p>
+              <p> <a href=https://github.com/AwsManas/gender-based-salary-disparity/blob/main/San%20Diego%20Salary%20Comparisions.ipynb>Final Report</a></p>">
+              <img src="./assets/img/men_women.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Gender Based Salary Disparity</h5>
+                <p>We dig a deep dive to get more insights about salary disparity between men and women working in San Diego</p>
+              </div>
+            </div>
+          </div>
+
+
           <div class="grid-item">
             <div class="img-place" data-src="./assets/img/work/recommendation.png" data-fancybox data-caption="<h5 class='fg-theme'>Data Analysis and Visualization</h5> 
               <p>Pandas, matplotlib, numpy, beutifulsoup were used</p>
@@ -255,8 +277,26 @@
               </div>
             </div>
           </div>
+
           <div class="grid-item">
-            <div class="img-place" data-src="./assets/img/work/spaceship.png" data-fancybox data-caption="<h5 class='fg-theme'>Training AI to play Space Invaders</h5> 
+            <div class="img-place" data-src="./assets/img/work/collage.png" data-fancybox data-caption="<h5 class='fg-theme'>Computer Vision</h5>
+              <p><ul>
+                <li>Feature mapping from one image to another</li>
+                <li>Optical motion detection by comparing 2 images</li>
+                <li>Object reconstruction in 3D from multiple images</li>
+              </ul></p>">
+              <img src="./assets/img/work/collage.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Computer Vision</h5>
+                <p>Feature detection and feature mapping on multiple images and image reconstruction in 3D</p>
+              </div>
+            </div>
+          </div> 
+
+
+
+          <div class="grid-item">
+            <div class="img-place" data-src="./assets/img/space.mp4" data-fancybox data-caption="<h5 class='fg-theme'>Training AI to play Space Invaders</h5> 
               <p>Created using pygame and Pytorch.</p>
               <p><a href=https://github.com/AwsManas/Reinforcement-learning-on-Spaceship-Game->Code - Reinforcement Learning (implemented as a part of masters project)</p>
                 <p><a href=https://github.com/AwsManas/SpaceShip-Attack>Code - Humans to play (designed as a part of undergraduate project)</p>">
@@ -267,8 +307,11 @@
               </div>
             </div>
           </div>
+
+
+
           <div class="grid-item">
-            <div class="img-place" data-src="./assets/img/work/pokemon.png" data-fancybox data-caption="<h5 class='fg-theme'>Visulasing Graph Traversal Algorithms By Catching Pokemon</h5> 
+            <div class="img-place" data-src="./assets/img/algorithm.mp4" data-fancybox data-caption="<h5 class='fg-theme'>Visulasing Graph Traversal Algorithms By Catching Pokemon</h5> 
               <p>A web application designed in React that gives users the option to visualize graph traversal algorithms while
                 trying to reach the pokemon hidden in an editable and randomly generated map.</p>
               <p><a href=https://github.com/AwsManas/Visualizing-algorithms-by-catching-Pokemon>Code</a></p>
@@ -280,23 +323,23 @@
               </div>
             </div>
           </div>
-          <div class="grid-item">
-          <div class="img-place" data-src="./assets/img/work/collage.png" data-fancybox data-caption="<h5 class='fg-theme'>Computer Vision</h5>
-            <p><ul>
-              <li>Feature mapping from one image to another</li>
-              <li>Optical motion detection by comparing 2 images</li>
-              <li>Object reconstruction in 3D from multiple images</li>
-            </ul></p>
-            <!-- <p> <a href=https://rmi.nitt.edu/projects/MOM.html/>Download Notebooks</a></p>"> -->
-            <img src="./assets/img/work/collage.png" alt="">
+          
+
+
+        <div class="grid-item">
+          <div class="img-place" data-src="./assets/img/work/system_design.png" data-fancybox data-caption="<h5 class='fg-theme'>Automatic Waste Segregation using CNN</h5>
+            <p>End to End waste segregation system designed using Arduino. Trained the CNN using PyTorch and built an
+              end to end pipeline for deployment for the same. Published the work in an IEEE conference.</p>
+            <p> <a href=https://ieeexplore.ieee.org/document/9645825>Research Paper</a></p>">
+            <img src="./assets/img/work/system_design.png" alt="System design">
             <div class="img-caption">
-              <h5 class="fg-theme">Computer Vision</h5>
-              <p>Feature detection and feature mapping on multiple images and image reconstruction in 3D</p>
+              <h5 class="fg-theme">Automatic Waste Segregation using CNN</h5>
+              <p>End to end embeeded system designed using Arduino, Flask and Pytorch</p>
             </div>
           </div>
-        </div> <!-- End gridder -->
+        </div>
       </div>
-    </div> <!-- End Portfolio page -->
+    </div> 
     
     
     <!-- Footer -->
